@@ -19,7 +19,11 @@
     />
     <link rel="stylesheet" href="css/font-awesome.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
+    <link href="css/bootstrap-icons/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="css/boxicons/css/boxicons.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/lightbox.min.css" />
+    <link href="css/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="glightbox/css//glightbox.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Sagar Prasad | Web Developer</title>
   </head>
@@ -32,8 +36,7 @@
         <h5 class="text-primary fs-3 fw-bold text-uppercase">Hello,World.</h5>
         <h1 id="typing-text" class="text-white display-1 fw-bold"></h1>
         <p class="roles text-white text-uppercase fs-4">
-          <span>Passionate</span>
-          <span>Web Developer</span>
+          <span>Full Stack Web Developer</span>
         </p>
         <a href="#about" class="btn btn-outline-light btn-lg mt-3">
           <div class="d-flex">
@@ -73,7 +76,7 @@
         </div>
         <div class="about-content d-flex gap-5 align-items-center h-100">
           <img
-            src="images/sagar.jpg"
+            src="images/portfolio.jpeg"
             alt=""
             class="about-img img-fluid rounded-circle"
           />
@@ -90,24 +93,24 @@
     <section class="profile my-6">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <h3 class="text-uppercase fw-bold">Profile</h3>
-            <p>
-              Here is some more info about myself to help you get me know
-              better.
-            </p>
+          <div class="col-md-4">
+            <h3 class="text-uppercase text-center fw-bold">Profile</h3>
+            <p class="profile-info">Here is some more info about myself.</p>
             <ul class="list-group list-group-flush">
               <li class="list-group-item mb-3">
                 <h5 class="text-transform">
-                  <i class="fas fa-user text-primary"></i> Full Name:
+                  <i class="fa-solid fa-certificate text-primary"></i>
+                  Interships & Certifications:
                 </h5>
-                <p>Sagar Prasad</p>
+                <p>Codecademy • 2023 • Front End Engineer Path</p>
+                <p>Sharpener Tech • Oct 2022-present</p>
               </li>
               <li class="list-group-item mb-3">
                 <h5 class="text-transform">
-                  <i class="fas fa-calendar text-primary"></i> Birth Date:
+                  <i class="fa-solid fa-building-columns text-primary"></i>
+                  Education:
                 </h5>
-                <p>August 16, 2000</p>
+                <p>B.Tech (E.C.E) 2018-22,Graphic Era University Dehradun</p>
               </li>
               <li class="list-group-item mb-3">
                 <h5 class="text-transform">
@@ -115,35 +118,31 @@
                 </h5>
                 <a href="https://github.com/SagarPrasad160">SagarPrasad160</a>
               </li>
-              <li class="list-group-item mb-3">
-                <h5 class="text-transform">
-                  <i class="fas fa-envelope text-primary"></i> Email:
-                </h5>
-                <a href="mailto:sagarprasad480@gmail.com"
-                  >sagarprasad480@gmail.com</a
-                >
-              </li>
             </ul>
           </div>
-          <div class="col-md-6">
-            <h3 class="text-uppercase fw-bold mb-4">Skills</h3>
-            <h5 class="my-4">HTML5</h5>
+          <div class="col-md-8">
+            <h3 class="text-uppercase text-center fw-bold mb-4">Skills</h3>
+            <div class="skills">
+              <div>HTML5</div>
 
-            <h5 class="my-4">CSS3</h5>
+              <div>CSS3</div>
 
-            <h5 class="my-4">JavaScript</h5>
+              <div>JavaScript</div>
 
-            <h5 class="my-4">TypeScript</h5>
+              <div>TypeScript</div>
 
-            <h5 class="my-4">Bootstrap</h5>
+              <div>Bootstrap</div>
 
-            <h5 class="my-4">React.js</h5>
+              <div>React.js</div>
 
-            <h5 class="my-4">Redux</h5>
+              <div>Redux</div>
 
-            <h5 class="my-4">Node.js</h5>
-            <h5 class="my-4">Express</h5>
-            <h5 class="my-4">MongoDB</h5>
+              <div>Node.js</div>
+              <div>Express</div>
+              <div>SQL</div>
+              <div>PostgreSQL</div>
+              <div>MongoDB</div>
+            </div>
           </div>
         </div>
         <div class="row text-center mt-5">
@@ -166,181 +165,207 @@
           <h4 class="text-uppercase fw-bold text-primary">Portfolio</h4>
           <hr class="w-25 mx-auto" />
           <h2 class="mb-4">Check Out My Work</h2>
-          <p class="lead">here's a small sample of my projects.</p>
+          <p class="lead">here's a small sample of my personal projects.</p>
         </div>
         <div class="row">
           <div class="col-md-6 mb-4">
-            <div class="project shadow-lg rounded-5">
-              <a
-                href="images/contact-keeper.png"
-                data-lightbox="images"
-                data-title="Contact Keeper"
-              >
-                <img
-                  src="images/contact-keeper.png"
-                  alt=""
-                  class="img-fluid rounded-3"
-                  rounded
-                />
-              </a>
-              <a
-                href="https://github.com/SagarPrasad160/contact-keeper-mern"
-                class="text-decoration-none"
-                >github</a
-              >
+            <div class="portfolio-wrap">
+              <img src="images/contact-keeper.png" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>Contact Keeper</h4>
+                <p>MERN Stack</p>
+                <div class="portfolio-links">
+                  <a
+                    href="images/contact-keeper.png"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    class="portfolio-details-lightbox"
+                    data-glightbox="type: external"
+                    title="Portfolio Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-md-6 mb-4">
-            <div class="project shadow-lg rounded-5">
-              <a
-                href="images/ecomm.png"
-                data-lightbox="images"
-                data-title="Ecomm Shop"
-              >
-                <img
-                  src="images/ecomm.png"
-                  alt=""
-                  class="img-fluid rounded-3"
-                  rounded
-                />
-              </a>
-              <a
-                href="https://github.com/SagarPrasad160/ecomm-js"
-                class="text-decoration-none"
-                >github</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 mb-4">
-            <div class="project shadow-lg rounded-5">
-              <a
-                href="images/ideas.png"
-                data-lightbox="images"
-                data-title="Random Ideas"
-              >
-                <img
-                  src="images/ideas.png"
-                  alt=""
-                  class="img-fluid rounded-3"
-                  rounded
-                />
-              </a>
-              <a
-                href="https://github.com/SagarPrasad160/ideas"
-                class="text-decoration-none"
-                >github</a
-              >
-            </div>
-          </div>
-          <div class="col-md-6 mb-4">
-            <div class="project shadow-lg rounded-5">
-              <a
-                href="images/mailbox.png"
-                data-lightbox="images"
-                data-title="Mailbox React"
-              >
-                <img
-                  src="images/mailbox.png"
-                  alt=""
-                  class="img-fluid rounded-3"
-                  rounded
-                />
-              </a>
-              <a
-                href="https://github.com/SagarPrasad160/mailbox-react"
-                class="text-decoration-none"
-                >github</a
-              >
+            <div class="portfolio-wrap">
+              <img src="images/ecomm.png" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>Ecommerce Store</h4>
+                <p>Full Stack JavaScript</p>
+                <div class="portfolio-links">
+                  <a
+                    href="images/ecomm.png"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    class="portfolio-details-lightbox"
+                    data-glightbox="type: external"
+                    title="Portfolio Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6 mb-4">
-            <div class="project shadow-lg rounded-5">
-              <a
-                href="images/finance-tracker.png"
-                data-lightbox="images"
-                data-title="Finance Tracker"
-              >
-                <img
-                  src="images/finance-tracker.png"
-                  alt=""
-                  class="img-fluid rounded-3"
-                  rounded
-                />
-              </a>
-              <a
-                href="https://github.com/SagarPrasad160/finance-tracker"
-                class="text-decoration-none"
-                >github</a
-              >
+          <div class="col-md-6">
+            <div class="portfolio-wrap">
+              <img src="images/ideas.png" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>Random Ideas</h4>
+                <p>Share your thoughts.</p>
+                <div class="portfolio-links">
+                  <a
+                    href="images/ideas.png"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    class="portfolio-details-lightbox"
+                    data-glightbox="type: external"
+                    title="Portfolio Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
             </div>
           </div>
+
           <div class="col-md-6 mb-4">
-            <div class="project shadow-lg rounded-5">
-              <a
-                href="images/caloriemeter.png"
-                data-lightbox="images"
-                data-title="Caloriemeter"
-              >
-                <img
-                  src="images/caloriemeter.png"
-                  alt=""
-                  class="img-fluid rounded-3"
-                  rounded
-                />
-              </a>
-              <a
-                href="https://github.com/SagarPrasad160/caloriemeter-webpack"
-                class="text-decoration-none"
-                >github</a
-              >
+            <div class="portfolio-wrap">
+              <img src="images/mailbox.png" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>Mailbox Client</h4>
+                <p>React, Firebase 9</p>
+                <div class="portfolio-links">
+                  <a
+                    href="images/mailbox.png"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    class="portfolio-details-lightbox"
+                    data-glightbox="type: external"
+                    title="Portfolio Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-md-6 mb-4">
-            <div class="project shadow-lg rounded-5">
-              <a
-                href="https://res.cloudinary.com/dzzazpzrs/image/upload/v1691916075/Billing_Screen_u7y5aq.png"
-                data-lightbox="images"
-                data-title="Hospital Management"
-              >
-                <img
-                  src="https://res.cloudinary.com/dzzazpzrs/image/upload/v1691916075/Billing_Screen_u7y5aq.png"
-                  alt=""
-                  class="img-fluid rounded-3"
-                  rounded
-                />
-              </a>
-              <a
-                href="https://github.com/SagarPrasad160/hospital"
-                class="text-decoration-none"
-                >github</a
-              >
+            <div class="portfolio-wrap">
+              <img src="images/finance-tracker.png" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>Finance Tracker</h4>
+                <p>React + Firebase</p>
+                <div class="portfolio-links">
+                  <a
+                    href="images/finance-tracker.png"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    class="portfolio-details-lightbox"
+                    data-glightbox="type: external"
+                    title="Portfolio Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-md-6 mb-4">
-            <div class="project shadow-lg rounded-5">
-              <a
-                href="images/react-meals.png"
-                data-lightbox="images"
-                data-title="React Meals"
-              >
-                <img
-                  src="images/react-meals.png"
-                  alt=""
-                  class="img-fluid rounded-3"
-                  rounded
-                />
-              </a>
-              <a
-                href="https://github.com/SagarPrasad160/restaurant-task"
-                class="text-decoration-none"
-                >github</a
-              >
+            <div class="portfolio-wrap">
+              <img src="images/caloriemeter.png" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>Caloriemeter</h4>
+                <p>Track your calories.</p>
+                <div class="portfolio-links">
+                  <a
+                    href="images/caloriemeter.png"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Caloriemeter"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    class="portfolio-details-lightbox"
+                    data-glightbox="type: external"
+                    title="Portfolio Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="portfolio-wrap">
+              <img src="images/Billing Screen.png" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>Hospital Management</h4>
+                <p>React + TypeScript</p>
+                <div class="portfolio-links">
+                  <a
+                    href="images/Billing Screen.png"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    class="portfolio-details-lightbox"
+                    data-glightbox="type: external"
+                    title="Portfolio Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="portfolio-wrap">
+              <img src="images/react-meals.png" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>React Meals</h4>
+                <p>Tailwind CSS</p>
+                <div class="portfolio-links">
+                  <a
+                    href="images/react-meals.png"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    class="portfolio-details-lightbox"
+                    data-glightbox="type: external"
+                    title="Portfolio Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -397,6 +422,7 @@
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="glightbox/js/glightbox.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
