@@ -45,7 +45,7 @@
 
 .skills > div:hover {
   color: white;
-  background-color: #d63384;
+  background-color: #cc005f;
   cursor: pointer;
 }
 
@@ -156,10 +156,7 @@
   position: relative;
 }
 
-.portfolio-details
-  .portfolio-details-slider
-  .swiper-pagination
-  .swiper-pagination-bullet {
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -167,10 +164,7 @@
   border: 1px solid #d9232d;
 }
 
-.portfolio-details
-  .portfolio-details-slider
-  .swiper-pagination
-  .swiper-pagination-bullet-active {
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #d9232d;
 }
 
